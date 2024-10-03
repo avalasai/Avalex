@@ -1,0 +1,95 @@
+.navbar {
+    display: flex;                /* Use flexbox layout */
+    justify-content: space-around;  /* Align items to the left */
+    align-items: center;         /* Center items vertically */
+    /* padding: 10px;               Optional: Add padding for spacing */
+    background-color: #fff;
+    box-shadow: 0 1px 3px -2px black;     /* Optional: Background color */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;         /* Center logo vertically */
+}
+
+.nav-logo p {
+    color: #963939;
+    font-size: 38px;
+    /* font-weight: 500;                   Remove default margin */
+}
+
+.nav-logo img {
+    height: 40px;               /* Adjust logo size as needed */
+    margin-right: 10px;         /* Space between logo and text */
+}
+
+.nav-menu {
+    list-style: none;            /* Remove bullets from list */
+    display: flex;
+    align-items: center;               /* Use flexbox for menu items */
+    margin: 0;                   /* Remove default margin */
+    padding: 0;                  /* Remove default padding */
+    text-align: left;
+    font-weight: 500;            /* Ensure text is aligned to the left */
+}
+
+.nav-menu hr{
+    border: none;
+    width:80%;
+    height: 2px;
+    background-color: #963939;
+
+
+}
+ 
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    margin: 0 30px;             /* Space between menu items */
+} 
+
+
+.nav-login-cart {
+    display: flex;
+    align-items: center;         /* Center login button and cart icon */
+    gap: 45px;
+}
+
+.nav-login-cart button {
+    width: 130px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #963939;
+    border-radius: 75px;
+    color:#515151;
+    font-size: 20px;
+    font-weight:500;
+    background:white;
+    cursor:pointer;
+    margin-right: 10px;         /* Space between button and icon */
+    
+}
+
+.nav-login-cart button:active{
+ background-color: #f3f3f3;   
+}
+
+.nav-cart-count{
+
+    width:22px;
+    height:22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}
